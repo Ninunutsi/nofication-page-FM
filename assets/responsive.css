@@ -1,0 +1,100 @@
+@media(max-width:767px){
+    
+    main{
+        padding: 1vh 0;
+    }
+    
+    .main-content{
+        padding: 15px 20px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 0px;
+        width: 100%;
+    }
+    
+    
+    .nofications{
+        display: flex;
+        gap: 6px;
+        align-items: center;
+    }
+    
+    .nofications h1{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .nofication-number{
+        font-size: 12px;
+    }
+    
+    .mark-all{
+        font-size: 12px;
+    }
+    
+    /* nofications */
+    
+    .nofication{
+        gap: 10px;
+        margin: 7px 0;
+    }
+    
+    .nofication img{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .nofication-header{
+        gap: 3px;
+    }
+    
+    .nofication-header span{
+        font-size: 11px;
+    }
+    
+    .time{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    
+    .msg{
+        border: 1px solid var(--Lightgrayishblue2);
+        border-radius: 7px;
+        padding: 10px 15px;
+        font-size: 11px;
+        line-height: 17px;
+        width: 75%;
+        align-self: center;
+        margin-top: -10px;
+        margin-left: 3rem;
+        width: 270px;
+        color: var(--Darkgrayishblue);
+    }
+    
+    .msg:hover{
+        background: var(--Lightgrayishblue2);
+        cursor: pointer;
+        transition: 1s;
+    }
+    
+    .div-chess{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .br{
+        font-size: 12px;
+    }
+    
+    .red-ball{
+        width: 8px;
+        height: 8px;
+        background: var(--Red);
+        border-radius: 50%;
+    }
+    
+    .blue-bg{
+        background: var(--Verylightgrayishblue);
+        cursor: pointer;
+    }
+}
