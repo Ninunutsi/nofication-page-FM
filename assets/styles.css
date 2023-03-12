@@ -126,22 +126,15 @@ main{
     color: var(--Grayishblue);
 }
 
-.div-msg{
-    display: flex;
-    flex-direction: column;
-}
-
 .msg{
     border: 1px solid var(--Lightgrayishblue2);
     border-radius: 7px;
     padding: 10px 15px;
     font-size: 11px;
     line-height: 17px;
-    width: 75%;
     align-self: center;
-    margin-top: -10px;
-    margin-left: 3rem;
     width: 400px;
+    margin-right: 5.5rem;
     color: var(--Darkgrayishblue);
 }
 
@@ -173,4 +166,17 @@ main{
 .blue-bg{
     background: var(--Verylightgrayishblue);
     cursor: pointer;
+}
+
+.div-msg{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.msg-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
 }
